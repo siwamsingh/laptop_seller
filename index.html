@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+
+        background-image: url(pc.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        position: relative;
+        display: inline-block;
+        top: 1vh;
+        left: 1vw;
+        height: 10vh;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 10vh;
+    }
+
+    .search {
+        position: relative;
+        top: 4vh;
+        left: 7vw;
+        height: 10vh;
+    }
+
+    .search img {
+        width: 2vw;
+        height: 2vw;
+        background-color: white;
+    }
+
+    .search img:hover {
+        cursor: pointer;
+        background-color: grey;
+    }
+
+    .navbar {
+        display: inline-block;
+        position: relative;
+        top: 1vh;
+        left: 13vw;
+        height: 10vh;
+    }
+
+    .navbar ul {
+        margin: 0;
+    }
+
+    .navbar li {
+        display: inline-block;
+        padding: 3vh;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .navbar li :hover {
+        color: grey;
+        cursor: pointer;
+    }
+
+    .contact {
+        position: relative;
+        top: 1vh;
+        right: 1vw;
+        height: 10vh;
+
+    }
+
+    .contact div {
+        display: inline-block;
+        position: relative;
+        top: 1vh;
+    }
+
+    .contact img {
+        display: inline-block;
+        position: relative;
+        top: 3vh;
+        width: 4vw;
+    }
+
+    .contact img:hover {
+        cursor: pointer;
+    }
+
+    .mid {
+        display: inline-block;
+        position: absolute;
+        top: 33vh;
+        left: 5vw;
+        color: rgb(162, 223, 242);
+    }
+    .mid button{
+        width: 49%;
+       height: 7vh;
+        background-color: orange;
+        color: white;
+        border: none;
+        border-radius: 2vh;
+        font-size: 4vh;
+    }
+
+    .mid button:hover{
+        cursor: pointer;
+        background-color: rgb(255, 119, 0);
+    }
+
+</style>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="">
+            <div>Pc Works</div>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">PRICING</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <img src="search.jpg" alt="search logo">
+        </div>
+        <div class="contact">
+            <img src="call.webp" alt="call logo">
+            <div>contact : 12345678910</div>
+        </div>
+        <div class="mid">
+            <h1>Fast And Secure Web Hosting</h1>
+            <p>not to brag but we are the best in the<br> business so <br>we assume you will definitely be trying our
+                <br>products
+            </p>
+            <button class="b1">Read More</button>
+            <button class="b2">Contact Us</button>
+        </div>
+    </header>
+</body>
+
+</html>
